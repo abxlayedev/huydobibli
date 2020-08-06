@@ -46,7 +46,6 @@ public class BibliothequeMain {
 		System.out.println("show livres de la categores loisirs "+ nbr);
 		
 		
-
 	}
 
 

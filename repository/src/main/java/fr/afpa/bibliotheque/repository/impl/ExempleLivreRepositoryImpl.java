@@ -15,6 +15,10 @@ public class ExempleLivreRepositoryImpl implements ExempleLivreRepository {
 	@Override
 	public int getNbLivreByCategory(String categoryName) {
         //TODO Faire les requetes
+		
+		
+		
+		
 		return 15;
 	}
 
