@@ -1,6 +1,6 @@
 package fr.afpa.bibliotheque.service;
 
-public interface ExempleLivreService {
+public interface LivreService {
 	
 	int getNbLivre(String category);
 

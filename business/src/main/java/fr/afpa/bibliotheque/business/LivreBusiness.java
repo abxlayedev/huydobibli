@@ -7,7 +7,7 @@ package fr.afpa.bibliotheque.business;
  * @author bilonjea
  *
  */
-public interface ExempleLivreBusiness {
+public interface LivreBusiness {
 
 	public int getLibreByCategory(String cat);
 }
