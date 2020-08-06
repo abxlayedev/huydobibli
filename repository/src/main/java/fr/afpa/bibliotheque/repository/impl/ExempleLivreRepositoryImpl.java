@@ -15,6 +15,8 @@ public class ExempleLivreRepositoryImpl implements ExempleLivreRepository {
 	@Override
 	public int getNbLivreByCategory(String categoryName) {
         //TODO Faire les requetes
+		
+		//INSERT INTO ;
 		return 15;
 	}
 
