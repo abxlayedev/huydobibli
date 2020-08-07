@@ -10,4 +10,5 @@ package fr.afpa.bibliotheque.business;
 public interface LivreBusiness {
 
 	public int getLibreByCategory(String cat);
+	public void createLivre (String titre, String isbn, String description, String code, String auteur, String theme, String nomemplacement); // apl ecran 
 }

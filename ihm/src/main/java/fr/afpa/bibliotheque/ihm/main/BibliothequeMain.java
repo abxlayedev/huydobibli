@@ -17,10 +17,14 @@ import javafx.application.Application;
 import javafx.stage.Stage;
 import lombok.extern.log4j.Log4j;
 
+
+
+
 /**
  * @author bilonjea
  *
  */
+
 @Log4j
 public class BibliothequeMain {
 	
@@ -38,6 +42,17 @@ public class BibliothequeMain {
 	
 		ApplicationContext ctx = new AnnotationConfigApplicationContext(MainConfig.class);
 
+		TestBusiness test = (TestBusiness) ctx.getBean("testBusiness");
+	//	test.sayHello();
+		
+		//	livre.getLibreByCategory("losirs");
+	//	System.out.println(livre.getLibreByCategory("losirs"));
+		
+		
+		
+		LivreBusiness livre =  (LivreBusiness) ctx.getBean("livreBusinessImpl");
+
+		livre.createLivre("toto2", "isbn2", "description", "code", "auteur", "theme", "nomemplacement");
 		
 	}
 

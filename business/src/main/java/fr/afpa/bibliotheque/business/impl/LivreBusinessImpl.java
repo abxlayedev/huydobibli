@@ -20,7 +20,14 @@ public class LivreBusinessImpl implements LivreBusiness{
 	LivreService serviceLivre;
 	
 	public int getLibreByCategory(String cat) {
-		return serviceLivre.getNbLivre(cat);
+		return serviceLivre.getNbLivreByCategorySrv(cat);
+	}
+
+	@Override
+	public void createLivre(String titre, String isbn, String description, String code, String auteur, String theme,
+			String nomemplacement) {
+		serviceLivre.createLivreSrv(titre, description, isbn, code);
+		
 	}
 
 }

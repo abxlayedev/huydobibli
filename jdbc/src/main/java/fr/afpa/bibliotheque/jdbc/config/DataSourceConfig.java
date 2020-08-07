@@ -23,7 +23,7 @@ public class DataSourceConfig {
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUsername("toto");
         dataSource.setPassword("toto");
-        dataSource.setUrl("jdbc:mysql://localhost:3309/mydb?useSSL=false&serverTimezone=UTC");
+        dataSource.setUrl("jdbc:mysql://localhost:8889/mydb?useSSL=false&serverTimezone=UTC");
         return dataSource;
     }
 
