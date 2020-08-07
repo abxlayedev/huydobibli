@@ -5,6 +5,7 @@ import java.sql.SQLException;
 
 import org.springframework.jdbc.core.RowMapper;
 
+import fr.afpa.bibliotheque.data.Auteur;
 import fr.afpa.bibliotheque.data.Livre;
 
 

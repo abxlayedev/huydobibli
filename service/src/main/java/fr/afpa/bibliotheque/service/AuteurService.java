@@ -1,5 +1,6 @@
 package fr.afpa.bibliotheque.service;
 
-public class AuteurService {
+public interface AuteurService {
 
+	void AddAuteur(String Auteurname);
 }

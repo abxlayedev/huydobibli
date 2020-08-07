@@ -1,5 +1,10 @@
 package fr.afpa.bibliotheque.data;
 
-public class Theme {
+import lombok.Data;
 
+@Data
+public class Theme {
+	
+private int idtheme;
+private String theme;
 }

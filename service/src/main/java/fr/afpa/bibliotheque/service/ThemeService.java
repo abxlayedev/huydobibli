@@ -1,5 +1,5 @@
 package fr.afpa.bibliotheque.service;
 
-public class ThemeService {
-
+public interface ThemeService {
+	void AddTheme(String theme);
 }

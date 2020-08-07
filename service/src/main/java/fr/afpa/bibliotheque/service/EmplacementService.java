@@ -1,5 +1,5 @@
 package fr.afpa.bibliotheque.service;
 
-public class EmplacementService {
-
-}
+	public interface EmplacementService {
+		void AddEmplacement(String nomemplacement);
+	}

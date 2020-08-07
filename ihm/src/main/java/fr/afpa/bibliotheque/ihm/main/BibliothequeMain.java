@@ -42,7 +42,7 @@ public class BibliothequeMain {
 	
 		ApplicationContext ctx = new AnnotationConfigApplicationContext(MainConfig.class);
 
-		TestBusiness test = (TestBusiness) ctx.getBean("testBusiness");
+	//	TestBusiness test = (TestBusiness) ctx.getBean("testBusiness");
 	//	test.sayHello();
 		
 		//	livre.getLibreByCategory("losirs");
@@ -52,7 +52,7 @@ public class BibliothequeMain {
 		
 		LivreBusiness livre =  (LivreBusiness) ctx.getBean("livreBusinessImpl");
 
-		livre.createLivre("toto2", "isbn2", "description", "code", "auteur", "theme", "nomemplacement");
+		livre.createLivre("to6t998o75234", "is67b9n82534", "des69cr7ipt58ion34", "c6ode54", "aut6e57u98r34", "th5e9m867e34", "nome89mp5lac6em7ent34");
 		
 	}
 
